@@ -24,8 +24,6 @@ bool load(const char *dictionary);
 unsigned int size(void);
 bool unload(void);
 void into_table(FILE *file, char buffer[]);
-
-// Prototypes for hashing.
 node *create(char value[]);
 node *insert(node *head, char value[]);
 bool find(node *head, char value[]);
